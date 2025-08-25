@@ -1,13 +1,13 @@
 {
   "name": "tron",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "node test.js",
-    "dev": "nodemon index.js",
-    "start": "node index.js",
-    "monitor": "node monitor.js",
-    "backup": "node backup.js",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "monitor": "node src/monitor.js",
+    "backup": "node scripts/backup.js",
     "stop": "echo \"使用 Ctrl+C 停止程序\""
   },
   "author": "",
