@@ -1,0 +1,39 @@
+# Node dependencies
+node_modules/
+/node_modules
+# Logs
+logs/
+*.log
+app.log
+error.log
+system_alerts.log
+performance_metrics.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build artifacts
+dist/
+build/
+.cache/
+.tmp/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Backups and generated data
+backups/
+private.json
+wallet_state.json
+wallet_checkpoint.json
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Tests / Coverage
+coverage/ 
