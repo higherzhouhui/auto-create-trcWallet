@@ -100,7 +100,7 @@ module.exports = {
     FILES: {
         OUTPUT_FILE: 'private.json',
         LOG_FILE: 'app.log',
-        BACKUP_INTERVAL: 60000, // 备份间隔（毫秒）
+        BACKUP_INTERVAL: 60 * 1000 * 60, // 备份间隔（毫秒）
         MAX_LOG_SIZE: 100 * 1024 * 1024, // 最大日志文件大小 (100MB)
         MAX_OUTPUT_SIZE: 500 * 1024 * 1024, // 最大输出文件大小 (500MB)
         AUTO_BACKUP: true,

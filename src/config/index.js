@@ -1,15 +1,13 @@
 module.exports = {
     WORKER_POOL: {
-        MAX_WORKERS: 4,
+        MAX_WORKERS: 10,
         WORKER_TIMEOUT: 30000,
         RESTART_ON_FAILURE: true,
         MAX_RESTART_ATTEMPTS: 3
     },
     WALLET_GENERATION: {
         TARGET_SUFFIXES: [
-            'wind', '9527', '6666', '8888', '9999', 
-            '66666', '88888', '99999', '666666', '888888', 
-            'money', 'flysky', '666', '888'
+            '66666', '88888', '99999', '666666', '888888', '999999'
         ],
         GENERATION_DELAY: 10,
         BATCH_SIZE: 1000,
@@ -37,7 +35,7 @@ module.exports = {
     SECURITY: {
         ENCRYPT_PRIVATE_KEYS: false,
         ENCRYPTION_KEY: '',
-        LOG_SENSITIVE_DATA: false,
+        LOG_SENSITIVE_DATA: true, // 改为true以保存完整钱包信息
         MAX_FAILED_ATTEMPTS: 10,
         LOCKOUT_DURATION: 300000
     },
