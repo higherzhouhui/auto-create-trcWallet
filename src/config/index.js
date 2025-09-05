@@ -10,8 +10,8 @@ module.exports = {
             '66666', '88888', '99999', '666666', '888888', '999999'
         ],
         GENERATION_DELAY: 10,
-        BATCH_SIZE: 1000,
-        MAX_WALLETS: 20000000,
+        BATCH_SIZE: 10000,
+        MAX_WALLETS: 2000000000,
         LOG_INTERVAL: 10000,
         MAX_RETRY_ATTEMPTS: 3,
         RETRY_DELAY: 1000
